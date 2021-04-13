@@ -1,0 +1,38 @@
+[{
+    "SourceGitHubRepoUrl": "https://github.com/dotnet/runtime",
+    "TargetGitHubRepoUrls": [
+      "https://github.com/dotnet/sdk",
+      "https://github.com/dotnet/aspnetcore"
+    ],
+    "NotificationSettings": [{
+        "GitHubTagsToNotify": [
+          "@dotnet/runtime-infrastructure"
+        ],
+        "Channels": [
+          ".NET 6"
+        ]
+      },
+      {
+        "GitHubTagsToNotify": [
+          "@dotnet/runtime-infrastructure-servicing"
+        ],
+        "Channels": [
+          ".NET 5",
+          ".NET 3"
+        ],
+        "Enabled": false
+      }
+    ]
+  },
+  {
+    "SourceGitHubRepoUrl": "https://github.com/nuget/nuget.client",
+    "TargetGitHubRepoUrls": [
+      "https://github.com/dotnet/sdk"
+    ],
+    "NotificationSettings": [{
+      "GitHubTagsToNotify": [
+        "@nuget/nuget-infrastructure"
+      ]
+    }]
+  }
+]
