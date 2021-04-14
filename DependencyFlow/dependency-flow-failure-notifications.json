@@ -34,5 +34,22 @@
         "@nuget/nuget-infrastructure"
       ]
     }]
+  },
+  {
+    "SourceGitHubRepoUrl": "https://github.com/maestro-auth-test/maestro-test2",
+    "TargetGitHubRepoUrls": [
+      "https://github.com/maestro-auth-test/maestro-test1",
+      "https://github.com/maestro-auth-test/maestro-test"
+    ],
+    "NotificationSettings": [{
+        "GitHubTagsToNotify": [
+          "@MattGal",
+          "@riarenas"
+        ],
+        "Channels": [
+          "mattgal-test-channel"
+        ]
+      }
+    ]
   }
 ]
